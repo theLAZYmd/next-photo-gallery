@@ -1,5 +1,5 @@
 {
-  "name": "react-photo-gallery",
+  "name": "next-photo-gallery",
   "version": "8.0.0",
   "description": "Responsive Justified React Image Gallery Component",
   "main": "dist/react-photo-gallery.umd.js",
@@ -19,6 +19,7 @@
     "url": "https://github.com/neptunian/react-photo-gallery/issues"
   },
   "dependencies": {
+    "next": "^10.0.3",
     "prop-types": "~15.7.2",
     "resize-observer-polyfill": "^1.5.0"
   },
