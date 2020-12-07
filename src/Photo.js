@@ -1,4 +1,5 @@
 import React from 'react';
+import Img from 'next/image';
 import PropTypes from 'prop-types';
 
 const imgWithClick = { cursor: 'pointer' };
@@ -16,7 +17,7 @@ const Photo = ({ index, onClick, photo, margin, direction, top, left, key }) => 
   };
 
   return (
-    <img
+    <Img
       key={key}
       style={onClick ? { ...imgStyle, ...imgWithClick } : imgStyle}
       {...photo}
